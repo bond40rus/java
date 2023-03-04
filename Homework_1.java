@@ -48,10 +48,6 @@ public class Homework_1 {
         for (int[] ints : array) {
             System.out.println(Arrays.toString(ints));
         }
-        
-
-
-
     }
     
     /**
