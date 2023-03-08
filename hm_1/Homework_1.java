@@ -1,3 +1,6 @@
+package hm_1;
+
+
 import java.util.Arrays;
 import java.util.Random;
 
