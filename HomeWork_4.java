@@ -15,23 +15,22 @@ public class HomeWork_4 {
             String [] split = s.split("~"); 
             //System.out.println(Arrays.toString(split));
             String str = split[0];
-            int num = Integer.parseInt(split[1]);
+            int num =0; //Integer.parseInt(split[1]);
 
-            // try{  почему - то не получается  трай сделать так как если вписываю То потом  не видит переменнюу нам
-            //     int num = Integer.parseInt(split[1]);
+            try{  
+                num = Integer.parseInt(split[1]);
                 
-            // } catch (Exception e){
-            //     System.out.println("Не число");
-            //     break;
+            } catch (Exception e){
+                System.out.println("Не число");
+                break;
 
-            // }
+            }
             if(str == "exit"){
                 exi = false;
-            }
+            } 
 
             if(str == "string"){
                 mesto = num;
-
             }
 
             switch (str) {
